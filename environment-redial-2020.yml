@@ -3,8 +3,8 @@ channels:
   - rdkit
   - conda-forge
 dependencies:
-  - rdkit::rdkit==2019.03.1
-  - python=3.6.7
-  - pip=20.1.1
+  - rdkit::rdkit==2020.03.1
+  - python=3.7.9
+  - pip=20.2.3
   - pip:
-    - -r requirements-redial.txt
+    - -r requirements.txt

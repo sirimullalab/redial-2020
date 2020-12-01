@@ -20,7 +20,7 @@ import pickle
 from  collections import OrderedDict
 import pprint
 
-USE_OCHEM_API = False # If True, ochem API will be used for ALOGPS calculations (instead of ochem Tool)
+USE_OCHEM_API = True # If True, ochem API will be used for ALOGPS calculations (instead of ochem Tool)
 
 app = Flask(__name__)
 
