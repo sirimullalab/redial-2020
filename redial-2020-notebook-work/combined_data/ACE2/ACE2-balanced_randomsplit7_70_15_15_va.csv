@@ -1,0 +1,32 @@
+DC.ID,SMILES_stand,InChI,SMILES,DC.NAME,NCATS.SYNONYMS,NCGC.ID,ACE2.ACTIVITY,ACE2.SIGNIFICANCE,logPow {predicted by ochem.eu/model/535 in Log unit},Aqueous Solubility {predicted by ochem.eu/model/536 in log(mol/L)},Label
+1615.0,CC(C(=O)O)c1ccc(CC2CCCC2=O)cc1,,CC(C(=O)O)c1ccc(CC2CCCC2=O)cc1,loxoprofen,LOXOPROFEN SODIUM,,LOW,INACTIVE,2.94,-3.57,0
+1372.0,Oc1ccc(C(O)CNCCCCCCNCC(O)c2ccc(O)c(O)c2)cc1O,,Oc1ccc(C(O)CNCCCCCCNCC(O)c2ccc(O)c(O)c2)cc1O,hexoprenaline,Hexoprenaline sulfate,,MODERATE,LOW,1.17,-3.33,1
+1058.0,CC12CCC3c4ccc(OC(=O)c5ccccc5)cc4CCC3C1CCC2O,,C[C@]12CC[C@@H]3c4ccc(OC(=O)c5ccccc5)cc4CC[C@H]3[C@@H]1CC[C@@H]2O,estradiol benzoate,ESTRADIOL BENZOATE,,LOW,INACTIVE,5.25,-6.3,0
+2335.0,Cc1cc(C=Cc2ccc3cc(N(C)C)ccc3[n+]2C)c(C)n1-c1ccccc1,,Cc1cc(/C=C/c2ccc3cc(N(C)C)ccc3[n+]2C)c(C)n1-c1ccccc1,pyrvinium,PYRVINIUM PAMOATE|Pyrvinium pamoate,,LOW,INACTIVE,2.05,-6.16,0
+1115.0,Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br,,Cc1cc(C#N)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(N)c1Br,etravirine,Etravirine|Etravirine (TMC125),,LOW,INACTIVE,3.66,-4.41,0
+,CC(=O)c1cc([N+](=O)[O-])c(Sc2ccc(F)cc2F)s1,,CC(=O)c1cc([N+](=O)[O-])c(Sc2ccc(F)cc2F)s1,,P 22077,,LOW,INACTIVE,3.66,-5.05,0
+4185.0,CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1F,,CCCS(=O)(=O)Nc1ccc(F)c(C(=O)c2c[nH]c3ncc(-c4ccc(Cl)cc4)cc23)c1F,vemurafenib,Vemurafenib,NCGC00250399-02,LOW,INACTIVE,4.96,-6.13,0
+,CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3-c2ccc(F)cc2)CC1,,CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3-c2ccc(F)cc2)CC1,,Difloxacin hydrochloride,,MODERATE,LOW,1.16,-3.5,1
+,CC(=O)OC1CCC2C3CCC4CC(=O)C=C(C)C4(C)C3CCC12C,,CC(=O)O[C@H]1CC[C@H]2[C@@H]3CC[C@H]4CC(=O)C=C(C)[C@]4(C)[C@H]3CC[C@]12C,,Methenolone (acetate),,LOW,INACTIVE,4.06,-5.15,0
+427.0,CCCCNc1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1,,CCCCNc1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1,bumetanide,Bumetanide,NCGC00015149-25,MODERATE,MODERATE,3.22,-4.15,1
+1993.0,OCCN1CCN(CCCN2c3ccccc3C=Cc3ccccc32)CC1,,OCCN1CCN(CCCN2c3ccccc3C=Cc3ccccc32)CC1,opipramol,Opipramol dihydrochloride,,MODERATE,MODERATE,3.21,-3.54,1
+,NCCCCN(Cc1nc2ccccc2[nH]1)C1CCCc2cccnc21,,NCCCCN(Cc1nc2ccccc2[nH]1)[C@H]1CCCc2cccnc21,,AMD-070 (hydrochloride),,HIGH,HIGH,2.59,-4.09,1
+4899.0,COC(=O)NC(C(=O)N1CC2(CC2)CC1c1nc(-c2ccc3c(c2)C(F)(F)c2cc(-c4ccc5[nH]c(C6C7CCC(C7)N6C(=O)C(NC(=O)OC)C(C)C)nc5c4)ccc2-3)c[nH]1)C(C)C,,COC(=O)N[C@H](C(=O)N1CC2(CC2)C[C@H]1c1nc(-c2ccc3c(c2)C(F)(F)c2cc(-c4ccc5[nH]c([C@@H]6[C@H]7CC[C@H](C7)N6C(=O)[C@@H](NC(=O)OC)C(C)C)nc5c4)ccc2-3)c[nH]1)C(C)C,ledipasvir,Ledipasvir (GS 5885)|Ledipasvir (D-tartrate),,MODERATE,HIGH,5.98,-5.36,1
+48.0,O=C(O)CC(c1ccc([N+](=O)[O-])cc1)c1c(O)c2ccccc2oc1=O,,O=C(O)CC(c1ccc([N+](=O)[O-])cc1)c1c(O)c2ccccc2oc1=O,acenocoumarol,Acenocoumarol,,LOW,INACTIVE,2.56,-3.98,0
+1211.0,OCCN1CCN(CCC=C2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,,OCCN1CCN(CCC=C2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,flupentixol,cis-Flupentixol,,LOW,INACTIVE,4.56,-5.04,0
+,CCCCCC=CCC=CCCCCCCCC(=O)OCC,,CCCCC/C=C\C/C=C\CCCCCCCC(=O)OCC,,Ethyl linoleate,,LOW,INACTIVE,7.21,-6.87,0
+4213.0,CC(=O)OCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C,,CC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C,hydrocortisone acetate,Hydrocortisone acetate,,LOW,INACTIVE,2.31,-3.84,0
+2208.0,CCN1CCC(=C2c3ccccc3CCc3ccccc32)C1C,,CCN1CCC(=C2c3ccccc3CCc3ccccc32)C1C,piroheptine,Piroheptine Hydrochloride,,LOW,INACTIVE,5.46,-4.5,0
+3046.0,CC(C)(C)NCC(O)COc1ccccc1OCC1CCCO1,,CC(C)(C)NCC(O)COc1ccccc1OCC1CCCO1,bufetolol,Bufetolol,,LOW,INACTIVE,2.42,-3.43,0
+719.0,Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1,,Clc1ccccc1C(c1ccccc1)(c1ccccc1)n1ccnc1,clotrimazole,Clotrimazole,,MODERATE,LOW,5.48,-5.36,1
+,O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,,O=C(CCCCCCNC(=O)c1cnc(N(c2ccccc2)c2ccccc2)nc1)NO,,ACY-1215,NCGC00345802-09,LOW,INACTIVE,3.04,-4.49,0
+1513.0,CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OCC5COC(Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O,,CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OCC5COC(Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O,itraconazole,Itraconazole,NCGC00018268-14,HIGH,HIGH,5.49,-4.86,1
+3558.0,Nc1ccc(S(=O)(=O)NC(=O)c2ccccc2)cc1,,Nc1ccc(S(=O)(=O)NC(=O)c2ccccc2)cc1,sulfabenzamide,Sulfabenzamide,,LOW,INACTIVE,1.69,-3.32,0
+,O=C(C=Cc1ccc(O)c(O)c1)OC1CC(O)(C(=O)O)CC(O)C1OC(=O)C=Cc1ccc(O)c(O)c1,,O=C(/C=C/c1ccc(O)c(O)c1)O[C@H]1[C@H](O)C[C@](O)(C(=O)O)C[C@H]1OC(=O)/C=C/c1ccc(O)c(O)c1,,Isochlorogenic acid C,,MODERATE,INACTIVE,2.07,-3.62,1
+522.0,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12,,COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12,carvedilol,Carvedilol tartrate,,MODERATE,MODERATE,3.05,-4.97,1
+5080.0,COC(=O)NC(C(=O)N1CCCC1c1nc(-c2ccc3c(c2)OC(c2ccccc2)n2c-3cc3cc(-c4c[nH]c(C5CCCN5C(=O)C(NC(=O)OC)C(C)C)n4)ccc32)c[nH]1)C(C)C,,COC(=O)N[C@H](C(=O)N1CCC[C@H]1c1nc(-c2ccc3c(c2)O[C@@H](c2ccccc2)n2c-3cc3cc(-c4c[nH]c([C@@H]5CCCN5C(=O)[C@@H](NC(=O)OC)C(C)C)n4)ccc32)c[nH]1)C(C)C,elbasvir,Elbasvir,,MODERATE,HIGH,6.19,-5.3,1
+2171.0,COc1ccc(-c2nc3cc(C4=NNC(=O)CC4C)ccc3[nH]2)cc1,,COc1ccc(-c2nc3cc(C4=NNC(=O)CC4C)ccc3[nH]2)cc1,pimobendan,Pimobendan,NCGC00274063-05,MODERATE,HIGH,3.35,-4.36,1
+5081.0,C=CC1CC1(NC(=O)C1CC2CN1C(=O)C(C(C)(C)C)NC(=O)OC1CC1CCCCCc1nc3ccc(OC)cc3nc1O2)C(=O)NS(=O)(=O)C1CC1,,C=C[C@@H]1C[C@]1(NC(=O)[C@@H]1C[C@@H]2CN1C(=O)[C@H](C(C)(C)C)NC(=O)O[C@@H]1C[C@H]1CCCCCc1nc3ccc(OC)cc3nc1O2)C(=O)NS(=O)(=O)C1CC1,grazoprevir,MK-5172,,HIGH,HIGH,2.94,-4.87,1
+1764.0,CCC(CO)NC(=O)C1C=C2c3cccc4[nH]cc(c34)CC2N(C)C1,,CC[C@@H](CO)NC(=O)[C@@H]1C=C2c3cccc4[nH]cc(c34)C[C@H]2N(C)C1,methylergometrine,Methergine,,MODERATE,LOW,1.74,-3.22,1
+2445.0,CCC(C)(C)C(=O)OC1CC(C)C=C2C=CC(C)C(CCC3CC(O)CC(=O)O3)C21,,CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@H]21,simvastatin,Simvastatin,NCGC00017324-15,LOW,INACTIVE,4.51,-4.56,0
+,COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,,COc1ccc(-c2nc(N3CCOCC3)c3sc(CN(C)c4ncc(C(=O)NO)cn4)cc3n2)cn1,,CUDC-907,NCGC00346692-03,MODERATE,HIGH,2.62,-4.52,1

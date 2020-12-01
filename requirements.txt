@@ -1,0 +1,12 @@
+numpy==1.19.2
+hypopt==1.0.9
+argparse==1.4.0
+tqdm==4.49.0
+flask==1.1.2
+cairosvg==2.4.2
+requests==2.24.0
+pubchempy==1.0.4
+func_timeout==4.3.5
+xgboost==1.0.2
+scikit-learn==0.22.1
+pandas==1.1.2

@@ -1,0 +1,10 @@
+name: redial-2020
+channels:
+  - rdkit
+  - conda-forge
+dependencies:
+  - rdkit::rdkit==2019.03.1
+  - python=3.6.7
+  - pip=20.1.1
+  - pip:
+    - -r requirements-redial.txt

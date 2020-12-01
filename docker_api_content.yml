@@ -1,0 +1,74 @@
+Request type: form-data (POST)
+Input:
+  key: smiles
+  values: <SMILES_STRING>
+
+Output:
+  {
+    "image": string,
+    "logp": string,
+    "logs": string,
+    "prediction_results": {
+        "CCCC": {
+            "Activity Model": {
+                "Precison": float,
+                "Recall": float,
+                "accuracy": float,
+                "actives": int,
+                "cohen_k_test": float,
+                "dataset_size": int,
+                "f1_score": float,
+                "feature": string,
+                "inactives": int,
+                "model": "ExtraTreesClassifier",
+                "no_of_actives": int,
+                "prediction": string,
+                "probability": float,
+                "roc_auc": float
+            },
+            "Toxicity Model": {
+                "Precison": float,
+                "Recall": float,
+                "accuracy": float,
+                "actives": int,
+                "cohen_k_test": float,
+                "dataset_size": int,
+                "f1_score": float,
+                "feature": string,
+                "inactives": int,
+                "model": "ExtraTreesClassifier",
+                "no_of_actives": int,
+                "prediction": string,
+                "probability": float,
+                "roc_auc": float
+            }
+        }
+    },
+    "processed_query_smiles": string,
+    "similarity_results": {
+        string: {
+            "ACE2_enzymatic_activity.AC50": string,
+            "ACE2_enzymatic_activity.ACTIVITY_CLASS": string,
+            "ACE2_enzymatic_activity.SIGNIFICANCE_CLASS": string,
+            "AlphaLISA.AC50": string,
+            "AlphaLISA.ACTIVITY_CLASS": string,
+            "AlphaLISA.SIGNIFICANCE_CLASS": string,
+            "Aqueous Solubility {predicted by ochem.eu/model/536 in log(mol/L)}": float,
+            "CPE.AC50": string,
+            "CPE.ACTIVITY_CLASS": string,
+            "CPE.SIGNIFICANCE_CLASS": string,
+            "DC.ID": float,
+            "DC.NAME": string,
+            "MW": float,
+            "NCATS.SYNONYMS": string,
+            "TruHit_Counterscreen.AC50": string,
+            "TruHit_Counterscreen.ACTIVITY_CLASS": string,
+            "TruHit_Counterscreen.SIGNIFICANCE_CLASS": string,
+            "host_tox_counterscreen.AC50": string,
+            "host_tox_counterscreen.ACTIVITY_CLASS": string,
+            "host_tox_counterscreen.SIGNIFICANCE_CLASS": string,
+            "logPow {predicted by ochem.eu/model/535 in Log unit}": float,
+            "tanimoto": float
+        }
+    }
+}
