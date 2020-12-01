@@ -39,8 +39,8 @@ The latest Redial-2020 images are available on the Docker Hub.
 #### 2. Build your own images
 1. `git clone this repo`
 2. `cd /path/to/this/repo`
-3. `docker build --build-arg USER=$USER --build-arg UID=$UID --build-arg GID=$GID -t sirimullalab/redial-2020-website:v1.5 .`
-4. `docker run -p 5000:5000 sirimullalab/redial-2020-website:v1.5`
+3. `docker build --build-arg USER=$USER --build-arg UID=$UID --build-arg GID=$GID -t redial-2020 .`
+4. `docker run -p 5000:5000 redial-2020`
 5. `curl -F smiles='CCCC' localhost:5000/predict` OR `curl -d 'smiles=CCCC' localhost:5000/predict`
 > NOTE: The API accepts form-request / post-request.
 
