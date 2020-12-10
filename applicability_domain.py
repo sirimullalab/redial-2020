@@ -16,7 +16,7 @@ class ApplicabilityDomain:
         """
         Standardize the data.
         Args:
-            data: training data (2D array)
+            data: 2D array
         """
         self.verify_data(data)
         self.mean = np.mean(data, axis=0)
@@ -27,7 +27,7 @@ class ApplicabilityDomain:
         """
         Verify the training data
         Args:
-            data (np.array):
+            data: 2D array
         """
         if data is None:
             raise Exception("No data")
@@ -40,7 +40,7 @@ class ApplicabilityDomain:
         """
         Find outliers
         Args:
-            x (numpy.array):
+            x (numpy.array): 2D array
 
         Returns:
             returns the indices of rows that are outliers/not in applicability domain:
