@@ -1,5 +1,5 @@
 # Author: Md Mahmudulla Hassan
-# CS@UTEP and SOP@UTEP
+# CS@UTEP and Sirimulla Research Lab @ UTEP
 # Last modified: 12/09/2020
 
 # Reference: "On a simple approach for determining applicability domain of QSAR models"
