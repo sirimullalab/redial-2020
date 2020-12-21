@@ -19,7 +19,7 @@ WORKDIR /app
 COPY saved_models ./saved_models
 COPY static ./static
 COPY scalers ./scalers
-COPY smi_all_dict_updated_new_cleaning_with_3cl.pkl drug_central_drugs-stand.csv run_script.py config.py app.py ./
+COPY smi_dict_all_updated.pkl drug_central_drugs-stand.csv run_script.py config.py app.py ./
 COPY mayachemtools ./mayachemtools
 # For webapp
 ENTRYPOINT ["python3", "app.py"]
