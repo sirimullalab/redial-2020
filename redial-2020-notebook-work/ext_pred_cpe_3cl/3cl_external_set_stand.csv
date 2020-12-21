@@ -1,7 +1,0 @@
-DRUG,SMILES,SMILES_stand,Label,fingerprint,rdkDescriptor,pharmacophore
-Ebselen,C1=CC=C(C=C1)N2C(=O)C3=CC=CC=C3[Se]2,O=c1c2ccccc2[se]n1-c1ccccc1,1,0.0,0.0,0.0
-Disulfiram,CCN(CC)C(=S)SSC(=S)N(CC)CC,CCN(CC)C(=S)SSC(=S)N(CC)CC,1,1.0,0.0,0.0
-Tideglusib,C1=CC=C(C=C1)CN2C(=O)N(SC2=O)C3=CC=CC4=CC=CC=C43,O=c1sn(-c2cccc3ccccc23)c(=O)n1Cc1ccccc1,1,1.0,0.0,1.0
-Carmofur,CCCCCCNC(=O)N1C=C(F)C(=O)NC1=O,CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O,1,1.0,0.0,1.0
-Shikonin,CC(=CCC(C1=CC(=O)C2=C(C=CC(=C2C1=O)O)O)O)C,CC(C)=CCC(O)C1=CC(=O)c2c(O)ccc(O)c2C1=O,1,1.0,1.0,0.0
-PX-12,CCC(C)SSC1=NC=CN1,CCC(C)SSc1ncc[nH]1,1,1.0,1.0,0.0
