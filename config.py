@@ -152,7 +152,7 @@ fpFunc_dict['tpatf'] = lambda m: get_tpatf(m)
 fpFunc_dict['rdkDes'] = lambda m: calc.CalcDescriptors(m)
 
 long_fps = {'laval', 'lecfp4', 'lecfp6', 'lfcfp4', 'lfcfp6'}
-fps_to_generate = ['lecfp4', 'lfcfp4', 'rdkDes', 'tpatf', 'rdk5', 'hashtt', 'avalon', 'laval', 'rdk7', 'ecfp4', 'hashap', 'lecfp6', 'maccs']
+fps_to_generate = ['fcfp4', 'fcfp2', 'lecfp4', 'lfcfp4', 'rdkDes', 'tpatf', 'rdk5', 'hashtt', 'avalon', 'laval', 'rdk7', 'ecfp4', 'hashap', 'lecfp6', 'maccs']
 
 ModFileName_LoadedModel_dict = {}
 
