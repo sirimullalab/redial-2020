@@ -165,7 +165,7 @@ class Similarity:
         # Else, fp is calculated. continue -->
         else:
 
-            smi_all_dict = self.load_dict('smi_all_dict_updated_new_cleaning_with_3cl.pkl')
+            smi_all_dict = self.load_dict('smi_dict_all_updated.pkl')
 
             final_query_ref_dict = {}
             ref_smi_list = list(smi_all_dict.keys())
