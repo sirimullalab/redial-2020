@@ -1,0 +1,25 @@
+DRUG,SMILES,SMILES_stand,Label,fingerprint,rdkDescriptor,pharmacophore
+droloxifene,CC/C(=C(/C1=CC=C(C=C1)OCCN(C)C)\C2=CC(=CC=C2)O)/C3=CC=CC=C3,CC/C(=C(/c1ccc(OCCN(C)C)cc1)c1cccc(O)c1)c1ccccc1,1,1.0,1.0,1.0
+isoosajin,CC1(CCC2=C3C(=C4C(=C2O1)C(=O)C(=CO4)C5=CC=C(C=C5)O)C=CC(O3)(C)C)C,CC1(C)C=Cc2c(c3c(c4c(=O)c(-c5ccc(O)cc5)coc24)OC(C)(C)CC3)O1,1,1.0,0.0,1.0
+isopomiferin,CC1(CCC2=C3C(=C4C(=C2O1)C(=O)C(=CO4)C5=CC(=C(C=C5)O)O)C=CC(O3)(C)C)C,CC1(C)C=Cc2c(c3c(c4c(=O)c(-c5ccc(O)c(O)c5)coc24)OC(C)(C)CC3)O1,1,1.0,1.0,1.0
+osajin,CC(=CCC1=C2C(=C3C(=C1O)C(=O)C(=CO3)C4=CC=C(C=C4)O)C=CC(O2)(C)C)C,CC(C)=CCc1c2c(c3occ(-c4ccc(O)cc4)c(=O)c3c1O)C=CC(C)(C)O2,1,0.0,1.0,1.0
+oxyclozanide,C1=C(C=C(C(=C1NC(=O)C2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl)Cl,O=C(Nc1cc(Cl)cc(Cl)c1O)c1c(O)c(Cl)cc(Cl)c1Cl,1,1.0,1.0,1.0
+salinomycin,CC[C@H]([C@H]1CC[C@@H]([C@@H](O1)[C@@H](C)[C@@H]([C@H](C)C(=O)[C@H](CC)[C@@H]2[C@H](C[C@H]([C@]3(O2)C=C[C@H]([C@@]4(O3)CC[C@@](O4)(C)[C@H]5CC[C@@]([C@@H](O5)C)(CC)O)O)C)C)O)C)C(=O)O,CC[C@@H](C(=O)[C@@H](C)[C@@H](O)[C@H](C)[C@@H]1O[C@@H]([C@@H](CC)C(=O)O)CC[C@@H]1C)[C@H]1O[C@]2(C=C[C@@H](O)[C@]3(CC[C@@](C)([C@H]4CC[C@](O)(CC)[C@H](C)O4)O3)O2)[C@H](C)C[C@@H]1C,1,0.0,0.0,0.0
+elopiprazole,C1CN(CCN1CC2=CC=C(N2)C3=CC=C(C=C3)F)C4=CC=CC5=C4OC=C5,Fc1ccc(-c2ccc(CN3CCN(c4cccc5ccoc45)CC3)[nH]2)cc1,1,1.0,1.0,0.0
+ONO 5334,C[C@@H]1CS/C(=N\NC(=O)C(=O)C(C2CCOCC2)NC(=O)C3CCCCCC3)/N1C,C[C@@H]1CS/C(=N\NC(=O)C(=O)C(NC(=O)C2CCCCCC2)C2CCOCC2)N1C,1,0.0,0.0,0.0
+SDZ-62-434,C1CCN(CC1)C2=CC=C(C=C2)C3=CC4=CC=CC=C4C5=NCCN35.Cl.Cl,C1=C(c2ccc(N3CCCCC3)cc2)N2CCN=C2c2ccccc21.Cl.Cl,1,1.0,1.0,1.0
+SL-11128,CCNC/C=C\CNCCCCNCCCCNC/C=C\CNCC,CCNC/C=C\CNCCCCNCCCCNC/C=C\CNCC,1,1.0,0.0,1.0
+VBY-825,CC[C@@H](C(=O)C(=O)NC1CC1)NC(=O)[C@H](CS(=O)(=O)CC2CC2)N[C@@H](C3=CC=C(C=C3)F)C(F)(F)F,CC[C@H](NC(=O)[C@H](CS(=O)(=O)CC1CC1)N[C@@H](c1ccc(F)cc1)C(F)(F)F)C(=O)C(=O)NC1CC1,1,0.0,0.0,1.0
+alisporivir,CC[C@H]1C(=O)N([C@@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N1)[C@@H]([C@H](C)C/C=C/C)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)C(C)C)CC)C)C,C/C=C/C[C@@H](C)[C@@H](O)[C@H]1C(=O)N[C@@H](CC)C(=O)N(C)[C@H](C)C(=O)N(CC)[C@@H](C(C)C)C(=O)N[C@@H](C(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@H](C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](CC(C)C)C(=O)N(C)[C@@H](C(C)C)C(=O)N1C,1,0.0,0.0,1.0
+avasimibe,CC(C)C1=C(C(=CC=C1)C(C)C)OS(=O)(=O)NC(=O)CC2=C(C=C(C=C2C(C)C)C(C)C)C(C)C,CC(C)c1cc(C(C)C)c(CC(=O)NS(=O)(=O)Oc2c(C(C)C)cccc2C(C)C)c(C(C)C)c1,1,1.0,1.0,1.0
+avatrombopag,C1CCC(CC1)N2CCN(CC2)C3=C(N=C(S3)NC(=O)C4=CC(=C(N=C4)N5CCC(CC5)C(=O)O)Cl)C6=CC(=CS6)Cl,O=C(Nc1nc(-c2cc(Cl)cs2)c(N2CCN(C3CCCCC3)CC2)s1)c1cnc(N2CCC(C(=O)O)CC2)c(Cl)c1,1,1.0,0.0,1.0
+drotaverine,CCOC1=C(OCC)C=C(\C=C2/NCCC3=CC(OCC)=C(OCC)C=C23)C=C1,CCOc1ccc(/C=C2\NCCc3cc(OCC)c(OCC)cc32)cc1OCC,1,1.0,1.0,1.0
+IPAG,C1C2CC3CC1CC(C2)C3N=C(N)NC4=CC=C(C=C4)I,NC(=NC1C2CC3CC(C2)CC1C3)Nc1ccc(I)cc1,1,0.0,1.0,1.0
+JTE-013,CC1=NN(C2=C1C(=CC(=N2)NNC(=O)NC3=CC(=NC(=C3)Cl)Cl)C(C)C)C,Cc1nn(C)c2nc(NNC(=O)Nc3cc(Cl)nc(Cl)c3)cc(C(C)C)c12,1,1.0,0.0,0.0
+LY2228820,CC(C)(C)CN1C2=C(C=CC(=N2)C3=C(N=C(N3)C(C)(C)C)C4=CC=C(C=C4)F)N=C1N.CS(=O)(=O)O.CS(=O)(=O)O,CC(C)(C)Cn1c(N)nc2ccc(-c3[nH]c(C(C)(C)C)nc3-c3ccc(F)cc3)nc21.CS(=O)(=O)O.CS(=O)(=O)O,1,1.0,1.0,1.0
+mibampator,C[C@@H](CNS(=O)(=O)C(C)C)C1=CC=C(C=C1)C2=CC=C(C=C2)CCNS(=O)(=O)C,CC(C)S(=O)(=O)NC[C@H](C)c1ccc(-c2ccc(CCNS(C)(=O)=O)cc2)cc1,1,0.0,0.0,1.0
+pevonedistat,C1CC2=CC=CC=C2[C@H]1NC3=C4C=CN(C4=NC=N3)[C@@H]5C[C@H]([C@H](C5)O)COS(=O)(=O)N,NS(=O)(=O)OC[C@@H]1C[C@@H](n2ccc3c(N[C@H]4CCc5ccccc54)ncnc32)C[C@@H]1O,1,0.0,0.0,1.0
+polidocanol,CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,CCCCCCCCCCCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO,1,0.0,0.0,0.0
+ravuconazole,C[C@@H](C1=NC(=CS1)C2=CC=C(C=C2)C#N)[C@](CN3C=NC=N3)(C4=C(C=C(C=C4)F)F)O,C[C@@H](c1nc(-c2ccc(C#N)cc2)cs1)[C@](O)(Cn1cncn1)c1ccc(F)cc1F,1,1.0,0.0,1.0
+VLX600,CC1=C2C(=CC=C1)C3=NNC(=NC3N2)N/N=C(\C)/C4=CC=CC=N4,C/C(=N\NC1=NC2Nc3c(C)cccc3C2=NN1)c1ccccn1,1,1.0,0.0,1.0
+ZK-93423,CCOC(=O)C1=NC=C2C(=C1COC)C3=C(N2)C=CC(=C3)OCC4=CC=CC=C4,CCOC(=O)c1ncc2[nH]c3ccc(OCc4ccccc4)cc3c2c1COC,1,1.0,0.0,1.0
