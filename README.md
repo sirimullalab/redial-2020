@@ -50,16 +50,13 @@ The latest Redial-2020 images are available on the Docker Hub.
 3. `cd /path/to/this/repo`
 4. `conda env create -f environment-redial-2020.yml`
 5. `conda activate redial-2020` (or `source activate redial-2020` for older versions of conda)
-6. Example Commands :
+6. `cd batch_screen`
+7. Example Commands :
 ```
-python3 redial_batch_screen.py --input_path <PATH_TO_CSV_FILE> --output_path <PATH_TO_SAVE_JSON_FILE> --calculate_alogps <Bool>
-```
-```
-python3 redial_batch_screen.py --input_path test.csv --output_path ./ --calculate_alogps 1
+python3 run_predictions.py --csvfile <PATH_TO_CSV_FILE> --results <PATH_TO_SAVE_RESULTS>
 ```
 > Note: 
 > 1. Input csv file should contain atleast one column having `SMILES` as column name.
-> 2. Predictions along with ALOPGS calculations may be slow, due to OCHEM API limitations. For faster predictions, use `--calculate_alogps 0`
 
 ### Docker API Content
 API URL: `hostname:port/predict`
