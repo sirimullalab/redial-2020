@@ -4,7 +4,7 @@ import os, sys
 import pickle
 import json
 dictn = {}
-for m in glob.glob('./*.pkl'):
+for m in glob.glob('./saved_models/*.pkl'):
     name,_=os.path.splitext(os.path.basename(m))
     name = name.split('-')[0]
     with open(m, 'rb') as mod:
