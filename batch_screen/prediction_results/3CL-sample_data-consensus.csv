@@ -11,4 +11,4 @@ MOL4415,CC(=O)O/N=C1\C(=O)N(Cc2cc(Cl)ccc2Cl)c2ccc(Cl)cc21,,CC(=O)O/N=C1\C(=O)N(C
 MOL2227,Oc1ccccc1,4266.0,Oc1ccccc1,phenol,Phenol,,0,1.0,1.0,1.0,1.0
 MOL1884,CCOC(=O)OCC/C(SC(=O)OCC)=C(\C)N(C=O)Cc1cnc(C)nc1N,3081.0,CCOC(=O)OCC/C(SC(=O)OCC)=C(\C)N(C=O)Cc1cnc(C)nc1N,cetotiamine,Dicethiamine hydrochloride,,0,0.0,0.0,1.0,0.0
 MOL137,O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1,242.0,O=C1CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc2N1,aripiprazole,Aripiprazole,"NCGC00159510-16, NCGC00159510-04",1,0.0,0.0,0.0,0.0
-MOL7965,O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1CC(O)(C(=O)O)C[C@@H](OC(=O)/C=C/c2ccc(O)c(O)c2)C1O,,O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1CC(O)(C(=O)O)C[C@@H](OC(=O)/C=C/c2ccc(O)c(O)c2)C1O,,Isochlorogenic acid A,,0,1.0,0.0,1.0,1.0
+MOL7965,O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1CC(O)(C(=O)O)C[C@@H](OC(=O)/C=C/c2ccc(O)c(O)c2)C1O,,O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1CC(O)(C(=O)O)C[C@@H](OC(=O)/C=C/c2ccc(O)c(O)c2)C1O,,Isochlorogenic acid A,,0,1.0,1.0,1.0,1.0

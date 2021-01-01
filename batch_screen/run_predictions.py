@@ -1,9 +1,17 @@
+######################################################################################
+# Author: Govinda KC, Computational Science, UTEP                                    #
+# Code developed in Sirimulla Research Group (http://sirimullaresearchgroup.com/)    #
+# University of Texas at El Paso, Tx, USA                                            #
+# Last modified: 01/01/2021                                                          #
+######################################################################################
+
 import tempfile, shutil
 import glob, sys, os, pandas as pd, numpy as np
 import argparse, pickle, json
 from get_features import FeaturesGeneration
 from smile_standardization import StandardSmiles
 
+# SMILES standardization
 def standardize(temp_dir, csv_file):
     df = pd.read_csv(csv_file)
     smiles = df['SMILES']
@@ -18,7 +26,7 @@ def standardize(temp_dir, csv_file):
     df.reset_index(drop=True, inplace=True)
     df.to_csv(temp_dir+'/'+'temp_file_stand.csv', index=False)
     return df
-
+# Features generation
 def automate(temp_dir, _file):
     stand_df = standardize(temp_dir, _file)
     
@@ -38,6 +46,7 @@ def automate(temp_dir, _file):
     
     return features_dictn
 
+# Get fingerprint type of best fingerprint models
 def make_dictn():
     files = glob.glob('../redial-2020-notebook-work/models_tuned_best/*.pkl')
     fingerprints, models = [], []
@@ -52,6 +61,7 @@ def make_dictn():
     dictn = dict(zip(models, fingerprints))
     return dictn
 
+# Get consensus label
 def get_consensus(df):
     consensus_label = []
     for i in range(len(df)):
@@ -62,6 +72,7 @@ def get_consensus(df):
     df.insert(len(df.columns), 'Consensus', consensus_label)
     return df
 
+# Prediction 
 def get_predictions(temp_dir, results, csv_file):
     dictn_fp = make_dictn()
     filename = os.path.splitext(os.path.basename(csv_file))[0]
