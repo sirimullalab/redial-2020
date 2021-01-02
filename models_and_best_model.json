@@ -1,0 +1,54 @@
+{
+    "fingerprints": {
+        "CoV1-PPE": "GB",
+        "CoV1-PPE_cs": "RF",
+        "MERS-PPE": "MLP",
+        "MERS-PPE_cs": "MNB",
+        "hCYTOX": "XGB",
+        "3CL": "SVC",
+        "AlphaLISA": "SVC",
+        "ACE2": "RF",
+        "CPE": "MNB",
+        "TruHit": "BAG",
+        "cytotox": "RF"
+    },
+    "volsurf": {
+        "CoV1-PPE": "OVR",
+        "CoV1-PPE_cs": "MLP",
+        "MERS-PPE": "ETAs",
+        "MERS-PPE_cs": "MLP",
+        "hCYTOX": "GB",
+        "3CL": "RF",
+        "AlphaLISA": "GB",
+        "ACE2": "OVR",
+        "CPE": "OVR",
+        "TruHit": "KNB",
+        "cytotox": "MLP"
+    },
+    "rdkitDescriptors": {
+        "CoV1-PPE": "MNB",
+        "CoV1-PPE_cs": "XGB",
+        "MERS-PPE": "GB",
+        "MERS-PPE_cs": "ADA",
+        "hCYTOX": "RF",
+        "3CL": "GB",
+        "AlphaLISA": "XGB",
+        "ACE2": "XGB",
+        "CPE": "ETAs",
+        "TruHit": "ETAs",
+        "cytotox": "MLP"
+    },
+    "pharmacophore": {
+        "CoV1-PPE": "GB",
+        "CoV1-PPE_cs": "XGB",
+        "MERS-PPE": "ETAs",
+        "MERS-PPE_cs": "SVC",
+        "hCYTOX": "RF",
+        "3CL": "RF",
+        "AlphaLISA": "GB",
+        "ACE2": "RF",
+        "CPE": "OVR",
+        "TruHit": "ETAs",
+        "cytotox": "ETAs"
+    }
+}

@@ -1,0 +1,1 @@
+{"MLP": "MLPClassifier", "KNB": "KNeighborsClassifier", "DT": "DecisionTreeClassifier", "RF": "RandomForestClassifier", "ADA": "AdaBoostClassifier", "ETAs": "ExtraTreesClassifier", "GB": "GrandientBoostingClassifier", "XGB": "XGBClassifier", "OVR": "OneVsRestClassifier", "MNB": "MultinomialNB", "SVC": "SupportVectorClassifier", "BAG": "BaggingClassifier"}
