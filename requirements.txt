@@ -3,7 +3,7 @@ hypopt==1.0.9
 argparse==1.4.0
 tqdm==4.49.0
 flask==1.1.2
-cairosvg==2.4.2
+cairosvg==2.5.1
 requests==2.24.0
 pubchempy==1.0.4
 func_timeout==4.3.5
