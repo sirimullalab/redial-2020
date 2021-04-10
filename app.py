@@ -158,41 +158,66 @@ def predict():
                         tox_labels.append(val[key2]['prediction'])
                         continue
 
-                    #######################<HACK BENEATH, ALERT!>############################
-                    elif val[key2]['prediction'] == 'active' and (key2 == 'TruHitDes' or key2 == 'TruHitTopo' or key2 == 'TruHitFP'):
-                        # FLIPPING THE below 2 lines
-                        proba_1 = round(1 - proba_1, 2)
-                        proba_0 = float(val[key2]['probability'])
-                        #######################################
+                    # #######################<HACK BENEATH, ALERT!>############################
+                    # elif val[key2]['prediction'] == 'active' and (key2 == 'TruHitDes' or key2 == 'TruHitTopo' or key2 == 'TruHitFP'):
+                    #     # FLIPPING THE below 2 lines
+                    #     proba_1 = round(1 - proba_1, 2)
+                    #     proba_0 = float(val[key2]['probability'])
+                    #     #######################################
 
+                    #     truhit_proba_1.append(proba_1)
+                    #     truhit_proba_0.append(proba_0)
+                    #     predict_dict[key][key2].update({'predict_proba_0': str(proba_0)})
+                    #     predict_dict[key][key2].update({'predict_proba_1': str(proba_1)})
+
+                    #     # Flipping PREDICTION, below 2 lines
+                    #     predict_dict[key][key2].update({'prediction': 'INACTIVE'})
+                    #     truhit_labels.append('INACTIVE')
+                    #     #######################################
+                    #     continue
+
+                    # elif val[key2]['prediction'] == 'inactive' and (key2 == 'TruHitDes' or key2 == 'TruHitTopo' or key2 == 'TruHitFP'):
+                    #     # FLIPPING THE below 2 lines
+                    #     proba_0 = round(1 - proba_0, 2)
+                    #     proba_1 = float(val[key2]['probability'])
+                    #     #######################################
+
+                    #     truhit_proba_1.append(proba_1)
+                    #     truhit_proba_0.append(proba_0)
+                    #     predict_dict[key][key2].update({'predict_proba_0': str(proba_0)})
+                    #     predict_dict[key][key2].update({'predict_proba_1': str(proba_1)})
+
+                    #     # Flipping PREDICTION, below 2 lines
+                    #     predict_dict[key][key2].update({'prediction': 'ACTIVE'})
+                    #     truhit_labels.append('ACTIVE')
+                    #     #######################################
+                    #     continue
+                    # ###########################################################################################
+
+                    elif val[key2]['prediction'] == 'active' and (key2 == 'TruHitDes' or key2 == 'TruHitTopo' or key2 == 'TruHitFP'):
+                        proba_1 = float(val[key2]['probability'])
+                        proba_0 = round(1 - proba_1, 2)
                         truhit_proba_1.append(proba_1)
                         truhit_proba_0.append(proba_0)
                         predict_dict[key][key2].update({'predict_proba_0': str(proba_0)})
                         predict_dict[key][key2].update({'predict_proba_1': str(proba_1)})
+                        predict_dict[key][key2].update({'prediction': 'ACTIVE'})
+                        truhit_labels.append(val[key2]['prediction'])
 
-                        # Flipping PREDICTION, below 2 lines
-                        predict_dict[key][key2].update({'prediction': 'INACTIVE'})
-                        truhit_labels.append('INACTIVE')
-                        #######################################
                         continue
 
                     elif val[key2]['prediction'] == 'inactive' and (key2 == 'TruHitDes' or key2 == 'TruHitTopo' or key2 == 'TruHitFP'):
-                        # FLIPPING THE below 2 lines
-                        proba_0 = round(1 - proba_0, 2)
-                        proba_1 = float(val[key2]['probability'])
-                        #######################################
-
+                        proba_0 = float(val[key2]['probability'])
+                        proba_1 = round(1 - proba_0, 2)
                         truhit_proba_1.append(proba_1)
                         truhit_proba_0.append(proba_0)
                         predict_dict[key][key2].update({'predict_proba_0': str(proba_0)})
                         predict_dict[key][key2].update({'predict_proba_1': str(proba_1)})
-
-                        # Flipping PREDICTION, below 2 lines
-                        predict_dict[key][key2].update({'prediction': 'ACTIVE'})
-                        truhit_labels.append('ACTIVE')
-                        #######################################
+                        predict_dict[key][key2].update({'prediction': 'INACTIVE'})
+                        truhit_labels.append(val[key2]['prediction'])
                         continue
                     ###########################################################################################
+
 
                     elif val[key2]['prediction'] == 'active' and (key2 == 'AlphaLisaAndTruHitDes' or key2 == 'AlphaLisaAndTruHitTopo' or key2 == 'AlphaLisaAndTruHitFP'):
                         proba_1 = float(val[key2]['probability'])
