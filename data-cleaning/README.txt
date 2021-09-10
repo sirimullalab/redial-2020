@@ -4,3 +4,4 @@ Redial-2020 data cleansing, splitting, and features generation (RDKit descriptor
 - "data_volsurf" contains the split datasets after volsurf beause volsurf features were not generated for some smiles.
 - All the models were trained using "data_volsurf" folder data sets
 - For data sets before volsurf features - refer 'data_main'
+- For data cleaning - and spliting => notebooks
