@@ -74,7 +74,8 @@ API URL: `hostname:port/predict`
 -->
 
 ### Citation
-Please cite: 
+Please cite: KC, G.B., Bocci, G., Verma, S. et al. A machine learning platform to estimate anti-SARS-CoV-2 activities. Nat Mach Intell 3, 527–535 (2021). https://doi.org/10.1038/s42256-021-00335-w
+
 ```
 ﻿@Article{KC2021,
 author={KC, Govinda B. and Bocci, Giovanni and Verma, Srijan and Hassan, Md Mahmudulla and Holmes, Jayme and Yang, Jeremy J. and Sirimulla, Suman and Oprea, Tudor I.},
