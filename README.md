@@ -73,6 +73,25 @@ API URL: `hostname:port/predict`
 5. Workflow for 1000 SMILES
 -->
 
+### Citation
+Please cite: 
+```
+﻿@Article{KC2021,
+author={KC, Govinda B. and Bocci, Giovanni and Verma, Srijan and Hassan, Md Mahmudulla and Holmes, Jayme and Yang, Jeremy J. and Sirimulla, Suman and Oprea, Tudor I.},
+title={A machine learning platform to estimate anti-SARS-CoV-2 activities},
+journal={Nature Machine Intelligence},
+year={2021},
+month={Jun},
+day={01},
+volume={3},
+number={6},
+pages={527-535},
+issn={2522-5839},
+doi={10.1038/s42256-021-00335-w},
+url={https://doi.org/10.1038/s42256-021-00335-w}
+}
+```
+
 ### Acknowledgments
 Suman Sirimulla acknowledge support from the National Science Foundation with `NSF-PREM grant #DMR-1827745.`
 
