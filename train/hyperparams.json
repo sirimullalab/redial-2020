@@ -1,0 +1,483 @@
+{
+    "rf": {
+        "n_estimators": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+        ],
+        "criterion": [
+            "gini",
+            "entropy"
+        ],
+        "max_features": [
+            "auto",
+            "log2",
+            "sqrt"
+        ],
+        "n_jobs": [
+            -1
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "dt": {
+        "criterion": [
+            "gini",
+            "entropy"
+        ],
+        "splitter": [
+            "best",
+            "random"
+        ],
+        "max_depth": [
+            null,
+            1,
+            5,
+            9,
+            13,
+            17,
+            21,
+            25,
+            29
+        ],
+        "max_features": [
+            "auto",
+            "sqrt",
+            "log2",
+            null
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "ada": {
+        "base_estimator": [
+            null
+        ],
+        "n_estimators": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            300,
+            350,
+            400,
+            450,
+            500,
+            550,
+            600,
+            650,
+            700,
+            750,
+            800,
+            850,
+            900,
+            950
+        ],
+        "learning_rate": [
+            0.01,
+            0.1,
+            1
+        ],
+        "algorithm": [
+            "SAMME.R"
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "mlp": {
+        "hidden_layer_sizes": [
+            [
+                64,
+                64
+            ],
+            [
+                64,
+                100
+            ],
+            [
+                100,
+                64
+            ],
+            [
+                100,
+                100
+            ],
+            [
+                100
+            ]
+        ],
+        "max_iter": [
+            300,
+            200
+        ],
+        "random_state": [
+            42
+        ],
+        "verbose": [
+            2
+        ]
+    },
+    "svc": {
+        "C": [
+            0.1,
+            1,
+            2,
+            5,
+            7,
+            10
+        ],
+        "kernel": [
+            "linear",
+            "poly",
+            "rbf",
+            "sigmoid"
+        ],
+        "degree": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "gamma": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1
+        ],
+        "coef0": [
+            0.0
+        ],
+        "shrinking": [
+            true
+        ],
+        "probability": [
+            true
+        ],
+        "tol": [
+            0.0001
+        ],
+        "verbose": [
+            2
+        ],
+        "max_iter": [
+            500
+        ],
+        "decision_function_shape": [
+            "ovr"
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "bag": {
+        "n_estimators": [
+            10,
+            20,
+            50,
+            100,
+            200,
+            500
+        ],
+        "max_samples": [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+        ],
+        "max_features": [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "lr": {
+        "penalty": [
+            "l2",
+            "l1"
+        ],
+        "C": [
+            1.0
+        ],
+        "random_state": [
+            42
+        ],
+        "solver": [
+            "lbfgs",
+            "liblinear"
+        ],
+        "verbose": [
+            2
+        ],
+        "n_jobs": [
+            -1
+        ]
+    },
+    "pac": {
+        "C": [
+            1.0,
+            2.0,
+            5.0,
+            10.0
+        ],
+        "class_weight": [
+            null,
+            "balanced"
+        ],
+        "fit_intercept": [
+            true
+        ],
+        "loss": [
+            "hinge"
+        ],
+        "max_iter": [
+            500,
+            1000
+        ],
+        "n_iter_no_change": [
+            5
+        ],
+        "n_jobs": [
+            -1
+        ],
+        "random_state": [
+            42
+        ],
+        "shuffle": [
+            true
+        ],
+        "tol": [
+            0.01,
+            0.001,
+            0.0001
+        ],
+        "validation_fraction": [
+            0.1
+        ],
+        "verbose": [
+            2
+        ],
+        "warm_start": [
+            false
+        ]
+    },
+    "etas": {
+        "n_estimators": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+        ],
+        "criterion": [
+            "gini",
+            "entropy"
+        ],
+        "max_features": [
+            "auto",
+            "log2",
+            "sqrt"
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "sgd": {
+        "verbose": [
+            2
+        ],
+        "n_jobs": [
+            -1
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "ovr": {
+        "estimator__penalty": [
+            "l2",
+            "l1"
+        ],
+        "estimator__C": [
+            1.0
+        ],
+        "estimator__random_state": [
+            42
+        ],
+        "estimator__solver": [
+            "lbfgs",
+            "liblinear"
+        ],
+        "estimator__verbose": [
+            2
+        ],
+        "estimator__n_jobs": [
+            -1
+        ]
+    },
+    "lsvc": {
+        "verbose": [
+            2
+        ],
+        "random_state": [
+            42
+        ],
+        "class_weight": [
+            "balanced",
+            null
+        ]
+    },
+    "knb": {
+        "n_neighbors": [
+            3,
+            5,
+            7
+        ],
+        "algorithm": [
+            "auto",
+            "ball_tree",
+            "kd_tree",
+            "brute"
+        ],
+        "leaf_size": [
+            30,
+            40,
+            50
+        ],
+        "weights": [
+            "uniform",
+            "distance"
+        ]
+    },
+    "nr": {
+        "shrink_threshold": [
+            null,
+            0.1,
+            0.2,
+            0.3
+        ]
+    },
+    "xgb": {
+        "n_estimators": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            300,
+            350,
+            400,
+            450,
+            500,
+            550,
+            600,
+            650,
+            700,
+            750,
+            800
+        ],
+        "learning_rate": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            0.2,
+            0.3
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "gb": {
+        "n_estimators": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            300,
+            350,
+            400,
+            450,
+            500,
+            550,
+            600,
+            650,
+            700,
+            750,
+            800
+        ],
+        "learning_rate": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            0.2,
+            0.3
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "cnb": {
+        "alpha": [
+            1.0,
+            2.0,
+            3.0
+        ],
+        "norm": [
+            true,
+            false
+        ]
+    },
+    "mnb": {
+        "alpha": [
+            1.0,
+            2.0,
+            3.0
+        ]
+    },
+    "eta": {
+        "criterion": [
+            "gini",
+            "entropy"
+        ],
+        "random_state": [
+            42
+        ]
+    },
+    "ridge": {
+        "alpha": [
+            0.1,
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            10.0
+        ],
+        "random_state": [
+            42
+        ]
+    }
+}
