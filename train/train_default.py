@@ -30,7 +30,7 @@ class Model_Development:
 
         self.results = dict()
         
-        self.output_dir = '../reports_default'
+        self.output_dir = '../redial-2020-notebook-work/reports_default'
 
         if not os.path.isdir(self.output_dir): os.makedirs(self.output_dir)
         

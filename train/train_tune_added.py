@@ -35,8 +35,8 @@ class Model_Development:
 
         self.results = dict()
         
-        self.output_dir = '../reports_tuned_best'
-        self.output_models = '../models_tuned_best'
+        self.output_dir = '../redial-2020-notebook-work/reports_tuned_best'
+        self.output_models = '../redial-2020-notebook-work/models_tuned_best'
         
         if not os.path.isdir(self.output_dir): os.mkdir(self.output_dir)
         if not os.path.isdir(self.output_models): os.mkdir(self.output_models)
